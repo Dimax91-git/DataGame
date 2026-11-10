@@ -262,5 +262,25 @@ footer {
     padding: 20px;
     width: 100%;
 }
+.classement {
+    background-color: #252525;
+    color: white;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 10px;
+}
 
+.classement h2 {
+    margin-bottom: 15px;
+}
+
+.classement p {
+    margin-bottom: 15px;
+}
+
+.classement a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
 
