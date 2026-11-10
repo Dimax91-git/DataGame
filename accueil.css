@@ -1,0 +1,266 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("Collage\ gaming\ cinématique\ néon.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+header {
+    background-image: url(Carte\ topographique\ abstraite\ en\ noir\ et\ blanc\ \(1\).png);
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+header h1 {
+    font-size: 28px;
+    margin-right: auto;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a, .compte a {
+    color: white;
+    text-decoration: none;
+}
+
+.compte {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 40px;
+}
+
+.inscription {
+    background-color: #2563eb;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+main {
+    text-align: center;
+    padding: 100px 20px;
+    
+}
+
+main h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.presentation {
+    background-color: white;
+    padding: 40px;
+    margin: 30px auto;
+    max-width: 900px;
+    border-radius: 10px;
+}
+
+.presentation h2 {
+    margin-bottom: 25px;
+}
+
+.presentation p {
+    margin-bottom: 15px;
+    line-height: 1.7;
+}
+
+.nouveautes {
+    background-color: #e8edf5;
+    padding: 40px;
+    margin: 30px auto;
+    max-width: 900px;
+    border-radius: 10px;
+}
+
+.nouveautes h2 {
+    margin-bottom: 20px;
+}
+
+.nouveautes p {
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.bouton {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+}
+
+.bouton:hover {
+    background-color: #1746a2;
+}
+
+.liste-jeux {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.jeu {
+    background-color: rgba(15, 15, 25, 0.95);
+    color: white;
+    width: 280px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.jeu img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.jeu h3 {
+    margin: 15px 0;
+}
+
+.jeu p {
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.jeu:hover {
+    transform: scale(1.03);
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.carte-jeu {
+    width: 280px;
+}
+
+.carte-jeu img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.carte-jeu .jeu {
+    width: 100%;
+}
+
+    
+.presentation-nouveautes {
+    background-color: rgba(15, 15, 25, 0.95);
+    color: white;
+    padding: 40px;
+    margin: 30px auto;
+    max-width: 900px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.presentation-nouveautes h2 {
+    margin-bottom: 20px;
+}
+
+.presentation-nouveautes p {
+    line-height: 1.7;
+}
+
+@media screen and (max-width: 700px) {
+
+    header {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    header h1 {
+        margin-right: 0;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    nav {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .compte {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    main {
+        padding: 30px 15px;
+    }
+
+    main h2 {
+        font-size: 25px;
+    }
+
+    .presentation,
+    .nouveautes,
+    .presentation-nouveautes {
+        width: 100%;
+        padding: 25px 15px;
+        margin: 20px auto;
+    }
+
+    .liste-jeux {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .carte-jeu {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .carte-jeu img {
+        width: 100%;
+        height: 190px;
+        object-fit: cover;
+    }
+
+    .jeu {
+        width: 100%;
+    }
+
+}
+
+footer {
+    background-color: #101827;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+
